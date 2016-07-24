@@ -1,0 +1,75 @@
+html, body
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+}
+
+#static
+{
+    position: static;
+    border: 2px solid rgb(10,15,200);
+    width: auto;
+    height: auto;
+    margin: auto;
+    top: 100px;
+}
+
+#fixed
+{
+    position: fixed;
+    border: 2px solid rgb(200,15,40);
+    width: 75px;
+    height: auto;
+    margin: auto;
+    top: 0px;
+    left: 10px;
+}
+
+#absolute
+{
+    position: absolute;
+    border: 2px solid rgb(25,200,25);
+    width: auto;
+    height: auto;
+    margin: auto;
+    top: 1200px;
+    left: 155px;
+}
+
+#relative-parent
+{
+    position: relative;
+    border: 2px solid rgb(200,100,100);
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+
+#absolute-child
+{
+    position: absolute;
+    border: 2px solid rgb(0, 200, 50);
+    top: 25px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#relative
+{
+    position: relative;
+    border: 2px solid rgb(150,150,0);
+    height: auto;
+    width: auto;
+}
